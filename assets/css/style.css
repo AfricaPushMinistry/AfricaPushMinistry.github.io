@@ -189,3 +189,27 @@ h1 em, h2 em { color: var(--gold); font-family: Georgia, "Times New Roman", seri
 @media (max-width: 650px) {
   .hero-logo { width: min(62vw, 225px); margin-top: -34px; }
 }
+
+
+/* Mission, vision and objectives */
+.mission-section { background: #f4f6f1; }
+.mission-heading { margin-bottom: 38px; }
+.mission-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; }
+.mission-panel { padding: clamp(26px, 4vw, 48px); border-radius: 5px; background: #fff; }
+.mission-panel-main { background: #123d32; color: #fff; }
+.mission-panel .section-kicker { letter-spacing: .16em; font-weight: 800; }
+.mission-panel-main .section-kicker { color: #e9c77b; }
+.mission-panel-vision .section-kicker { color: #34715d; }
+.mission-panel h3 { max-width: 620px; margin: 20px 0 14px; font-family: Georgia, serif; font-size: clamp(25px, 3vw, 38px); line-height: 1.15; font-weight: 500; }
+.mission-panel p:last-child { max-width: 680px; line-height: 1.8; opacity: .9; }
+.objectives-block { margin-top: 48px; }
+.objectives-block > .section-kicker { margin-bottom: 20px; }
+.objectives-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: #d9e0d9; border: 1px solid #d9e0d9; }
+.objective-item { display: flex; align-items: flex-start; gap: 18px; padding: 24px; background: #f4f6f1; }
+.objective-item span { color: #a27c35; font-size: 12px; font-weight: 800; letter-spacing: .12em; }
+.objective-item p { margin: 0; line-height: 1.65; color: #243d34; }
+@media (max-width: 760px) {
+  .mission-grid, .objectives-grid { grid-template-columns: 1fr; }
+  .mission-heading { gap: 12px; }
+  .objective-item { padding: 20px; }
+}
