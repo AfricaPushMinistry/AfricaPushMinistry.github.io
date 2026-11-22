@@ -170,10 +170,10 @@ h1 em, h2 em { color: var(--gold); font-family: Georgia, "Times New Roman", seri
   display: block;
   flex-shrink: 0;
   border: 0;
-  border-radius: 50%;
-  object-fit: cover;
+  border-radius: 0;
+  object-fit: contain;
   object-position: center;
-  background: var(--green);
+  background: transparent;
 }
 .brand-footer .brand-mark { width: 42px; height: 42px; }
 @media (max-width: 900px) {
