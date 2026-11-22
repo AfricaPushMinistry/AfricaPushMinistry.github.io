@@ -213,3 +213,17 @@ h1 em, h2 em { color: var(--gold); font-family: Georgia, "Times New Roman", seri
   .mission-heading { gap: 12px; }
   .objective-item { padding: 20px; }
 }
+
+.organization-bio {
+  margin: 0 0 8px;
+  color: var(--green);
+  font-size: 17px;
+  font-weight: 650;
+  line-height: 1.75;
+}
+.organization-bio-translation {
+  margin: 0 0 23px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.75;
+}
